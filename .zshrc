@@ -80,6 +80,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
